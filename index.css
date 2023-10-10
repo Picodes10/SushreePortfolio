@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+*{
+  box-sizing: border-box;
+}
+:root{
+    --text: #080f05;
+    --background: #ffffff;
+    --primary: #539532;
+    --secondary: #010100;
+    --accent: #60ac39;
+} 
+
+#home{
+    padding: 0;
+    margin: 0;
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 63vh;
+}
+.text-body-tertiary {
+  font-size: 1.25rem;
+}  
+.display-2{
+  font-size: calc(1.575rem + 3.9vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+.socials{
+  margin-top: 2.5%;
+}
+.fa-brands{
+  font-size: 1.5em !important;
+}
+
+#about{
+  min-height: 60vh;
+  min-width: 65vw;
+  background: var(--background);
+  border-radius: 0.7em;
+  padding: 3em;
+  -webkit-box-shadow:  0px 5px 15px rgba(0, 0, 0, 0.35);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  -webkit-transition: ease-out 0.16s;
+  transition: ease-out 0.16s;
+}
+ul.list-inline-pills li {
+  display: inline-flex;
+  align-items: center;
+  border: 3px dashed rgba(2, 2, 2, 0.2);
+  border-radius: 2em;
+  margin: 0 7px 10px 0;
+  padding: 0.5em 1em;
+  -webkit-transition: linear 0.1s;
+  transition: linear 0.1s;
+}
+
+#projects{
+    padding: 3em;
+    margin-top: 1.7em;
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+}  
+.col-md-6{
+  padding: 1em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+   rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+#contact{
+    padding: 0;
+    margin: 0;
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}  
+.section-box {
+  background: white;
+  border-radius: 0.5em;
+  padding: 3em;
+  -webkit-box-shadow: 0 8px 26px 0 rgba(22,24,26,0.07);
+  box-shadow: 0 8px 26px 0 rgba(22,24,26,0.07);
+  -webkit-transition: ease-out 0.16s;
+  transition: ease-out 0.16s;
+}
+.contact-form {
+  min-height: 65vh;
+  min-width: 65vw;
+  background: var(--background);
+  border-radius: 0.7em;
+  padding: 3em;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+   rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, 
+   rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+   transition: ease-out 0.16s;
+}
+form{
+  margin: 0;
+  padding: 0.2em;
+}
